@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>rbe Genius Game</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="main-game">
@@ -16,6 +22,17 @@
         <div class="blue"></div>
       </div>
     </div>
+    <div class="game-instructions" onclick="startGame()">
+      <h1>
+        <span class="greenTxt">Welcome</span> <span class="redTxt">to the</span>
+        <span class="yellowTxt">Genius</span>
+        <span class="blueTxt">Game!</span>
+      </h1>
+      <p>Click the colors according to the order showed in the pattern.</p>
+      <p>Press "Enter" key or click here to start the game.</p>
+      <p>Have fun!</p>
+    </div>
+    <div class="countdown"></div>
     <script src="./js/index.js" type="text/javascript"></script>
   </body>
 </html>
